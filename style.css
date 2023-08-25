@@ -1,13 +1,17 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-
-a {
-  color: orange;
+body .imgbox img {
+  width: 100%;
 }
 
-a:hover {
-  color: black;
-}
-/*# sourceMappingURL=style.css.map */
+#welcome {
+  background-color: white;
+  background-image: url("assets/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
