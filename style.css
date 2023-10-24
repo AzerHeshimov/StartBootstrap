@@ -125,4 +125,17 @@ body .imgbox img {
   color: #6c757d;
   font-style: italic;
   font-size: 18px;
+}
+
+#about .imgbox {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#about h2, #about h4 {
+  text-align: right;
+}
+#about .textbox {
+  width: 400px;
 }/*# sourceMappingURL=style.css.map */
