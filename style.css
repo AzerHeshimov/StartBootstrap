@@ -42,6 +42,9 @@ body .imgbox img {
   background-color: #ffc800;
 }
 
+#services {
+  padding: 96px 0;
+}
 #services h1 {
   font-size: 40px;
   font-weight: 700;
@@ -50,7 +53,7 @@ body .imgbox img {
   text-align: center;
 }
 #services h3 {
-  font-size: 16px;
+  font-size: 18px;
   color: #6c757d;
   line-height: 1.2;
   text-align: center;
@@ -73,5 +76,42 @@ body .imgbox img {
 #services .textbox h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 1.275rem;
+  font-weight: 700;
+  font-size: 25px;
+}
+#services .textbox h4 {
+  line-height: 1.75;
+  color: #6c757d;
+  font-size: 18px;
+}
+
+#portfolio {
+  padding: 96px 0;
+  background-color: #F8F9FA;
+}
+#portfolio .box {
+  text-align: center;
+}
+#portfolio .box h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+#portfolio .box h4 {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 64px;
+  color: #6c757d;
+}
+#portfolio .imgbox {
+  width: 410px;
+  height: 300px;
+}
+#portfolio .textbox {
+  text-align: center;
+  width: 410px;
+  height: 120px;
+  background-color: white;
+  margin-bottom: 25px;
 }/*# sourceMappingURL=style.css.map */
