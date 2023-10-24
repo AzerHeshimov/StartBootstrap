@@ -109,9 +109,20 @@ body .imgbox img {
   height: 300px;
 }
 #portfolio .textbox {
+  padding-top: 40px;
   text-align: center;
   width: 410px;
   height: 120px;
   background-color: white;
   margin-bottom: 25px;
+}
+#portfolio .textbox h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+#portfolio .textbox h5 {
+  padding-top: 10px;
+  color: #6c757d;
+  font-style: italic;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
