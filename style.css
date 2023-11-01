@@ -182,14 +182,103 @@ body .imgbox img {
   line-height: 1.2;
 }
 
+#team {
+  padding: 96px 0;
+  background-color: #F8F9FA;
+}
+#team .textbox h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #212529;
+  font-weight: 700;
+  line-height: 1.2;
+}
+#team .textbox h3 {
+  color: #6c757d;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 75px;
+}
+#team .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+#team .textbox h4 {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 20px;
+  line-height: 1.75;
+  font-weight: 500;
+}
+#team .textbox p {
+  color: #6c757d;
+  font-size: 18px;
+  line-height: 1.75;
+}
 #team .icon {
   display: flex;
   flex-flow: row nowrap;
 }
 #team .icon i {
-  height: 40px;
-  width: 40px;
+  color: white;
+  font-size: 15px;
+}
+#team .imgbox {
+  height: 14rem;
+  width: 14rem;
+}
+#team .imgbox img {
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0);
-  margin: 0 8px;
+  border: 8px solid #dfdfe0;
+}
+#team .icon-circle {
+  margin: 0 10px;
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#team .textwdth {
+  width: 800px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer {
+  padding: 15px 0;
+}
+footer .icon-circle {
+  margin: 0 10px;
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .icon {
+  display: flex;
+  flex-flow: row nowrap;
+}
+footer .icon i {
+  color: white;
+  font-size: 15px;
+}
+footer .textb, footer .textbox {
+  margin: 15px 0;
+}
+footer h1, footer h2, footer h3 {
+  color: #212529;
+  margin-right: 8px;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
