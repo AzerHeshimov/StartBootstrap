@@ -6,6 +6,23 @@ body .imgbox img {
   width: 100%;
 }
 
+header {
+  background-color: #212529;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+}
+header .imgbox {
+  width: 140px;
+}
+header nav a {
+  padding: 8px;
+  font-size: 1rem;
+  color: white;
+  margin-right: 25px;
+  letter-spacing: 0.07rem;
+}
+
 #welcome {
   padding: 10rem 0;
   background-color: white;
@@ -131,6 +148,7 @@ body .imgbox img {
   padding: 96px 200px;
 }
 #about .imgbox {
+  border: 8px solid #dfdfe0;
   margin: 80px 40px;
   width: 150px;
   height: 150px;
@@ -167,6 +185,7 @@ body .imgbox img {
   margin-left: 440px;
 }
 #about .circle {
+  border: 8px solid #dfdfe0;
   margin: 60px 0 0 0;
   width: 150px;
   height: 150px;
@@ -250,6 +269,65 @@ body .imgbox img {
   width: 800px;
   text-align: center;
   margin-top: 40px;
+}
+
+#micro {
+  padding: 4rem 0;
+}
+#micro .imgbox {
+  width: 155px;
+}
+#micro .imgw {
+  width: 110px;
+}
+
+#contact {
+  padding: 96px 0;
+  background-color: #212529;
+  background-image: url("assets/map-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contact .textbox h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+}
+#contact .textbox h3 {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 64px;
+  color: #6c757d;
+}
+#contact .msgbox {
+  background-color: white;
+  width: 630px;
+  height: 271px;
+  border-radius: 5px;
+}
+#contact .box {
+  background-color: white;
+  width: 630px;
+  height: 65px;
+  border-radius: 5px;
+  margin-bottom: 38px;
+}
+#contact .btn {
+  opacity: 0.8;
+  padding: 1.4rem 2.8rem;
+  border-radius: 10px;
+  background-color: #b28f0e;
+}
+#contact .btn h4 {
+  line-height: 1.4;
+  color: white;
+  font-size: 1.175rem;
+  font-weight: 700;
 }
 
 footer {
