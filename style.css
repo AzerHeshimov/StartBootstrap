@@ -15,7 +15,7 @@ header {
 header .imgbox {
   width: 140px;
 }
-header nav a {
+header .navbar nav a {
   padding: 8px;
   font-size: 1rem;
   color: white;
@@ -23,6 +23,27 @@ header nav a {
   letter-spacing: 0.07rem;
 }
 
+@media (max-width: 950px) {
+  .navbar {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+    padding: 0.75rem;
+    font-weight: 700;
+    border: 0.0625rem solid white;
+    border-radius: 5px;
+  }
+  .menu-button h6 {
+    padding-right: 5px;
+    color: white;
+    opacity: 0.65;
+    font-size: 0.75rem;
+  }
+  .menu-button i {
+    color: white;
+  }
+}
 #welcome {
   padding: 10rem 0;
   background-color: white;
@@ -123,13 +144,15 @@ header nav a {
 }
 #portfolio .imgbox {
   width: 410px;
+}
+#portfolio .imgbox img {
   height: 300px;
 }
 #portfolio .textbox {
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: center;
   width: 410px;
-  height: 120px;
+  height: 108px;
   background-color: white;
   margin-bottom: 25px;
 }
