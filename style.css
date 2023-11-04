@@ -9,11 +9,16 @@ body .imgbox img {
 header {
   background-color: #212529;
   padding: 18px 0;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
 }
 header .imgbox {
   width: 140px;
+}
+header .navbar {
+  position: absolute;
+  right: 0;
 }
 header .navbar nav a {
   padding: 8px;
@@ -100,7 +105,9 @@ header .navbar nav a {
   margin-bottom: 64px;
 }
 #services .icon {
-  margin: 0 145px;
+  position: relative;
+  right: -35%;
+  padding: 10px;
   text-align: center;
   height: 128px;
   width: 128px;
