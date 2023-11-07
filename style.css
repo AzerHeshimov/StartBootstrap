@@ -50,7 +50,7 @@ header .navbar nav a {
   }
 }
 #welcome {
-  padding: 10rem 0;
+  padding: 250px 0;
   background-color: white;
   background-image: url("assets/header-bg.jpg");
   background-repeat: no-repeat;
@@ -63,7 +63,8 @@ header .navbar nav a {
   color: white;
 }
 #welcome .textbox {
-  padding: 100px 0;
+  width: 100%;
+  text-align: center;
 }
 #welcome .textbox h1 {
   font-size: 2.25rem;
