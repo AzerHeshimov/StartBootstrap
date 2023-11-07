@@ -105,8 +105,7 @@ header .navbar nav a {
   margin-bottom: 64px;
 }
 #services .icon {
-  position: relative;
-  right: -35%;
+  margin: auto;
   padding: 10px;
   text-align: center;
   height: 128px;
@@ -117,6 +116,10 @@ header .navbar nav a {
 #services .icon i {
   color: white;
   font-size: 60px;
+}
+#services .textbox {
+  width: 100%;
+  margin: auto;
 }
 #services .textbox h2 {
   margin-top: 1rem;
@@ -130,6 +133,11 @@ header .navbar nav a {
   font-size: 18px;
 }
 
+@media (min-width: 768px) {
+  .textbox {
+    width: 200px;
+  }
+}
 #portfolio {
   padding: 96px 0;
   background-color: #F8F9FA;
@@ -149,16 +157,15 @@ header .navbar nav a {
   margin-bottom: 64px;
   color: #6c757d;
 }
-#portfolio .imgbox {
-  width: 410px;
-}
 #portfolio .imgbox img {
+  box-sizing: border-box;
+  padding-bottom: 0;
   height: 300px;
 }
 #portfolio .textbox {
   padding-top: 20px;
   text-align: center;
-  width: 410px;
+  width: 100%;
   height: 108px;
   background-color: white;
   margin-bottom: 25px;
@@ -174,9 +181,6 @@ header .navbar nav a {
   font-size: 18px;
 }
 
-#about {
-  padding: 96px 200px;
-}
 #about .imgbox {
   border: 8px solid #dfdfe0;
   margin: 80px 40px;
@@ -234,6 +238,9 @@ header .navbar nav a {
 #team {
   padding: 96px 0;
   background-color: #F8F9FA;
+}
+#team .textbox {
+  width: 100%;
 }
 #team .textbox h1 {
   font-size: 40px;
@@ -319,6 +326,9 @@ header .navbar nav a {
   background-position: center;
   background-repeat: no-repeat;
 }
+#contact .textbox {
+  margin: auto;
+}
 #contact .textbox h1 {
   font-size: 40px;
   margin-top: 0;
@@ -336,20 +346,21 @@ header .navbar nav a {
 }
 #contact .msgbox {
   background-color: white;
-  width: 630px;
+  width: 100%;
   height: 271px;
   border-radius: 5px;
 }
 #contact .box {
   background-color: white;
-  width: 630px;
+  width: 100%;
   height: 65px;
   border-radius: 5px;
   margin-bottom: 38px;
 }
 #contact .btn {
   opacity: 0.8;
-  padding: 1.4rem 2.8rem;
+  margin-top: 15px;
+  padding: 22px 50px;
   border-radius: 10px;
   background-color: #b28f0e;
 }
@@ -360,10 +371,15 @@ header .navbar nav a {
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
 footer {
   padding: 15px 0;
 }
-footer .icon-circle {
+footer .footer-content .icon-circle {
   margin: 0 10px;
   background-color: #000;
   border-radius: 50%;
@@ -374,19 +390,28 @@ footer .icon-circle {
   align-items: center;
   justify-content: center;
 }
-footer .icon {
+footer .footer-content .icon {
   display: flex;
   flex-flow: row nowrap;
 }
-footer .icon i {
+footer .footer-content .icon i {
   color: white;
   font-size: 15px;
 }
-footer .textb, footer .textbox {
+footer .footer-content .textb, footer .footer-content .textbox {
   margin: 15px 0;
 }
-footer h1, footer h2, footer h3 {
+footer .footer-content h1, footer .footer-content h2, footer .footer-content h3 {
   color: #212529;
   margin-right: 8px;
   font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
