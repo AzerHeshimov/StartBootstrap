@@ -34,7 +34,7 @@ header .navbar nav a {
   }
   .menu-button {
     display: block;
-    padding: 0.75rem;
+    padding: 12px 16px;
     font-weight: 700;
     border: 0.0625rem solid white;
     border-radius: 5px;
@@ -47,6 +47,7 @@ header .navbar nav a {
   }
   .menu-button i {
     color: white;
+    font-size: 16px;
   }
 }
 #welcome {
@@ -133,6 +134,9 @@ header .navbar nav a {
   color: #6c757d;
   font-size: 18px;
 }
+#services .box {
+  padding: 20px 0;
+}
 
 @media (min-width: 768px) {
   .textbox {
@@ -182,7 +186,7 @@ header .navbar nav a {
   font-size: 18px;
 }
 
-#about .imgbox {
+#about .box .imgbox {
   border: 8px solid #dfdfe0;
   margin: 80px 40px;
   width: 150px;
@@ -190,36 +194,33 @@ header .navbar nav a {
   border-radius: 50%;
   overflow: hidden;
 }
-#about h1 {
+#about .box h1 {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 16px;
 }
-#about h2, #about h4 {
+#about .box h2, #about .box h4 {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
 }
-#about h3 {
+#about .box h3 {
   font-size: 18px;
   font-weight: 400;
   font-style: italic;
   color: #6c757d;
   margin-bottom: 64px;
 }
-#about p {
+#about .box p {
   font-size: 18px;
   color: #6c757d;
   line-height: 1.75;
 }
-#about .textbox {
+#about .box .textbox {
   margin: 60px 20px 0;
   width: 400px;
 }
-#about .margSize {
-  margin-left: 440px;
-}
-#about .circle {
+#about .box .circle {
   border: 8px solid #dfdfe0;
   margin: 60px 0 0 0;
   width: 150px;
@@ -227,7 +228,7 @@ header .navbar nav a {
   border-radius: 50%;
   background-color: #FFC800;
 }
-#about .circle h6 {
+#about .box .circle h6 {
   text-align: center;
   width: 60px;
   color: white;
