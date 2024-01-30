@@ -221,7 +221,6 @@ header .menu nav a:hover {
   background-color: rgba(172, 173, 175, 0.0862745098);
 }
 #portfolio .textbox {
-  margin-bottom: 64px;
   text-align: center;
 }
 #portfolio .textbox h1 {
@@ -249,7 +248,7 @@ header .menu nav a:hover {
   padding-bottom: 20px;
 }
 #portfolio .box .textbox {
-  padding: 0;
+  padding: 30px 24px;
 }
 #portfolio .box .imgbox {
   position: relative;
