@@ -3,7 +3,7 @@
     .text-center
         margin-bottom: 55px
         h1
-            font-size: 60px
+            font-size: 50px
             font-weight: 700
             margin-bottom: 10px
         h3
@@ -31,7 +31,7 @@
             height: 150px
             overflow: hidden
             border-radius: 50%
-            border: 5px solid #c4c1c1
+            border: 7px solid #eae6e6
     .right
         justify-content: end
         margin: 0 100px 100px 0
@@ -41,11 +41,16 @@
         display: flex
         justify-content: center
     .story
-        // 
+        width: 150px
+        height: 150px
+        border-radius: 50%
+        border: 7px solid #eae6e6
+        background-color: #ffc800
         .minibox
             text-align: center
             padding: 0 40px
             h2
+                color: #ffff
                 font-size: 20px
                 font-weight: 700
                 line-height: 1.2
@@ -55,6 +60,17 @@
             align-items: flex-start
             .textbox
                 width: 190px
+            .imgbox
+                width: 100px
+                height: 100px
+        .story
+            width: 100px
+            height: 100px
+            .minibox
+                padding: 0 20px
+                h2
+                    font-weight: 700
+                    font-size: 15px
 
     @media screen and ( max-width: 768px )
         .text-center
@@ -70,7 +86,7 @@
                 width: 400px
                 text-align: start
             .imgbox
-                width: 140px
+                width: 100px
                 height: auto
                 margin: 0
         .right
@@ -81,10 +97,10 @@
         .yellow
             justify-content: flex-start
             .story
-                width: 140px
-                height: 140px
+                width: 100px
+                height: 100px
                 .minibox
-                    padding: 0 30px
+                    padding: 0 20px
 
     @media screen and ( max-width: 576px )
         .text-center
@@ -94,7 +110,7 @@
                 font-size: 18px
         .box
             .imgbox
-                width: 140px
+                width: 100px
                 height: auto
             .textbox
                 h2,h4
