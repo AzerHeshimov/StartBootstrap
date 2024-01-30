@@ -1,7 +1,26 @@
 #services
+    padding: 96px 0
     .textbox
         padding-bottom: 50px
-        //    
+        width: 360px  
+        h1
+            font-size: 40px
+            font-weight: 700
+            margin-bottom: 16px
+        h3
+            font-size: 18px
+            color: #6c757d
+            margin-bottom: 40px
+            font-style: italic
+        h2
+            margin: 16px 0
+            font-size: 24px
+            font-weight: 700
+            line-height: 1.2
+        h4
+            color: #6c757d
+            line-height: 1.75
+            font-size: 18px
     .box
         display: flex
         justify-content: center
@@ -9,21 +28,29 @@
             display: flex
             justify-content: center
             align-items: center
-            //
             background-color: #ffc800
             color: #ffff
             font-size: 64px
             width: 128px
             height: 128px
             border-radius: 50%
+    @media screen and ( max-width: 1200px  )
+        .textbox
+            width: 300px
+            padding: 0 0 50px
+    @media screen and ( max-width: 992px  )
+        .textbox
+            width: 220px
+            padding: 0 0 40px
     @media screen and ( max-width: 768px  )
         .textbox
-            padding: 0 0 50px
+            width: auto
+            padding: 0 0 16px
             h1
-                // 
+                font-size: 30px
             h3
-                // 
+                font-size: 15px
             h2
-                // 
+                font-size: 18px
             h4
-                // 
+                font-size: 15px

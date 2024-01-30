@@ -141,8 +141,34 @@ header .menu nav a:hover {
     width: 220px;
   }
 }
+#services {
+  padding: 96px 0;
+}
 #services .textbox {
   padding-bottom: 50px;
+  width: 360px;
+}
+#services .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+#services .textbox h3 {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+#services .textbox h2 {
+  margin: 16px 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+#services .textbox h4 {
+  color: #6c757d;
+  line-height: 1.75;
+  font-size: 18px;
 }
 #services .box {
   display: flex;
@@ -159,9 +185,34 @@ header .menu nav a:hover {
   height: 128px;
   border-radius: 50%;
 }
+@media screen and (max-width: 1200px) {
+  #services .textbox {
+    width: 300px;
+    padding: 0 0 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #services .textbox {
+    width: 220px;
+    padding: 0 0 40px;
+  }
+}
 @media screen and (max-width: 768px) {
   #services .textbox {
-    padding: 0 0 50px;
+    width: auto;
+    padding: 0 0 16px;
+  }
+  #services .textbox h1 {
+    font-size: 30px;
+  }
+  #services .textbox h3 {
+    font-size: 15px;
+  }
+  #services .textbox h2 {
+    font-size: 18px;
+  }
+  #services .textbox h4 {
+    font-size: 15px;
   }
 }
 
@@ -384,7 +435,7 @@ header .menu nav a:hover {
     font-size: 18px;
   }
   #about .box .imgbox {
-    width: 100px;
+    width: 80px;
     height: auto;
   }
   #about .box .textbox h2, #about .box .textbox h4 {
@@ -394,14 +445,14 @@ header .menu nav a:hover {
     font-size: 18px;
   }
   #about .yellow .story {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   #about .yellow .story .minibox {
-    padding: 0 15px;
+    padding: 0 12px;
   }
   #about .yellow .story .minibox h2 {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 
