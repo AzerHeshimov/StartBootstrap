@@ -60,8 +60,8 @@ header .menu nav a:hover {
     padding: 6px 10px;
   }
   header .menu .imgbox {
-    position: relative;
-    left: 0;
+    display: flex;
+    justify-content: start;
   }
 }
 @media screen and (max-width: 768px) {
@@ -70,7 +70,7 @@ header .menu nav a:hover {
   }
   header .menu .btn {
     display: flex;
-    margin-right: 30px;
+    justify-content: end;
   }
   header .menu .imgbox {
     margin-left: 14px;
