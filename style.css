@@ -581,7 +581,7 @@ header nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 20px;
   height: 70px;
   width: 240px;
   border-radius: 10px;
@@ -595,20 +595,20 @@ header nav a {
 }
 @media screen and (max-width: 768px) {
   #contact .box {
-    height: 60px;
+    height: 73px;
   }
   #contact .msgbox {
-    height: 180px;
+    height: 190px;
     margin-bottom: 14px;
   }
   #contact .btn {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   #contact .box {
     margin-bottom: 25px;
   }
   #contact input {
-    padding: 15px;
+    padding: 18px;
   }
 }
 
