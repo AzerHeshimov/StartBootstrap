@@ -139,6 +139,7 @@ header nav a {
   padding: 96px 0;
 }
 #services .textbox {
+  margin: auto;
   padding-bottom: 50px;
   width: 360px;
 }
@@ -169,6 +170,7 @@ header nav a {
   justify-content: center;
 }
 #services .box .icon {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,6 +225,7 @@ header nav a {
   margin-bottom: 15px;
 }
 #portfolio .textbox h3 {
+  margin-bottom: 64px;
   font-size: 20px;
   color: #828080;
 }
